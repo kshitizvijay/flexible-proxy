@@ -11,4 +11,4 @@ app.use('/3001', proxy({target: 'http://localhost:3001', changeOrigin: true,path
 app.use('/3002', proxy({target: 'http://localhost:3002', changeOrigin: true,pathRewrite: {'^/3002' : ''}}));
 
 
-app.listen(5000);
+app.listen(80);
